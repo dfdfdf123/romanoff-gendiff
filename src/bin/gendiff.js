@@ -8,6 +8,7 @@ import commander from 'commander';
 import genDiff from '..';
 
 commander
+  .version('0.3.0')
   .description('Compares two configuration files and shows a difference.')
   .option('-V, --version', 'output the version number')
   .option('-f, --format [type]', 'Output format')
